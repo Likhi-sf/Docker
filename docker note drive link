@@ -3,3 +3,18 @@ drive link: https://drive.google.com/drive/folders/1lE2hOyZaGtfkDMtLL_6xvxQPZFNq
 hub.docker.com
 https://github.com/akshu20791/apachewebsite
 
+create a container:
+-----------------------------------------------
+docker run -it --name con1 ubuntu /bin/bash
+to enter exiesting container:
+-----------------------------------------
+docker exec -it con1 /bin/bash
+to create custom image from docker file:
+--------------------------------------------------
+#vi dockerfile
+# docker build -t myimg .
+to create custom image of the container:
+-----------------------------------------------------------------
+#docker commit c10 1aug2024img
+this command will create a custom image of the container c10 with a namw 1aug2024img.
+
