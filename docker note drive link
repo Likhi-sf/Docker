@@ -17,4 +17,6 @@ to create custom image of the container:
 -----------------------------------------------------------------
 #docker commit c10 1aug2024img
 this command will create a custom image of the container c10 with a namw 1aug2024img.
-
+---------------------------------------------------------------------------------------
+For projects search docker project update
+-------------------------------------------------------------------------------------
